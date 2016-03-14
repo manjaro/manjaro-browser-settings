@@ -12,7 +12,7 @@
   },
   "distribution": {
     "import_bookmarks": false,
-    "import_bookmarks_from_file": "\/usr\/lib\/chromium\/bookmarks.html",
+    "import_bookmarks_from_file": "/usr/lib/chromium/bookmarks.html",
     "skip_first_run_ui": true
    },
   "bookmark_bar" : { 
