@@ -1,5 +1,5 @@
 { 
-  "homepage" : "https://manjaro.github.io", 
+  "homepage" : "https://manjaro.org", 
   "homepage_is_newtabpage" : true, 
   "browser" : { 
     "show_home_button" : true
@@ -7,7 +7,7 @@
   "session" : {
     "restore_on_startup" : 4,
     "startup_urls" : [
-      "https://manjaro.github.io"
+      "https://manjaro.org"
     ]
   },
   "distribution": {
@@ -22,7 +22,7 @@
     "show_on_first_run_allowed": false
   },
   "first_run_tabs" : [ 
-    "https://manjaro.github.io", 
+    "https://manjaro.org", 
     "welcome_page", 
     "new_tab_page" 
   ] 
