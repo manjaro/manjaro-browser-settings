@@ -2,7 +2,8 @@
   "homepage" : "https://manjaro.org", 
   "homepage_is_newtabpage" : true, 
   "browser" : { 
-    "show_home_button" : true
+    "show_home_button" : true,
+    "custom_chrome_frame": false
   },
   "session" : {
     "restore_on_startup" : 4,
@@ -20,7 +21,11 @@
   }, 
   "sync_promo" : {
     "show_on_first_run_allowed": false
-  },
+  }, 
+  "theme" : {
+    “id”:"",
+    “use_system”:true
+  }, 
   "first_run_tabs" : [ 
     "https://manjaro.org", 
     "welcome_page", 
