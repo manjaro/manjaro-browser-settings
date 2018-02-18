@@ -1,0 +1,5 @@
+#!/bin/bash
+
+install -Dm644 /etc/manjaro-firefox.ini /usr/lib/firefox/distribution/distribution.ini
+install -Dm644 /etc/manjaro-firefox.ini /usr/lib/firefox-developer-edition/distribution/distribution.ini
+sed -i 's/Firefox/Firefox Developer Edition/;s/firefox/firefox-developer-edition/' /usr/lib/firefox-developer-edition/distribution/distribution.ini
