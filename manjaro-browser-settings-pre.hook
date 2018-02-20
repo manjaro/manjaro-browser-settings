@@ -4,7 +4,6 @@ Operation = Install
 Operation = Upgrade
 Target = firefox
 Target = firefox-developer-edition
-Target = manjaro-browser-settings
 
 [Action]
 Description = Remove Firefox Distribution Settings
