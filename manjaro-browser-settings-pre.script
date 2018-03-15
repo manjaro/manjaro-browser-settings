@@ -1,4 +1,0 @@
-#!/bin/bash
-
-[ "$(ls -A /usr/lib/firefox{,-developer-edition}/distribution/)" ] && /bin/rm -f /usr/lib/firefox{,-developer-edition}/distribution/distribution.ini{,.mjo}
-
