@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = thunderbird
+
+[Action]
+Description = Copy Thunderbird Distribution Settings
+When = PostTransaction
+Exec = /usr/bin/cp -f /etc/manjaro-thunderbird.ini /usr/lib/thunderbird/distribution/distribution.ini
